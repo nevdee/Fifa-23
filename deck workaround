@@ -43,3 +43,11 @@ WINDOWTITLE = "FIFA 23"
 
 Also the way that live editor works is it pauses the game when it's invoked. and it's invoked on launch, so you'll have to hit "Window -> Hide Live Editor" for it to unpause the game and hide the live editor stuff. I tried mapping one of my buttons to "F9" but it doesn't work. Also for some reason in game mode I can move my mouse but I can't click on anything so I had to use the touchscreen to hide the editor.
 And that's it! Now it should be noted that this doesn't run the best on steam deck. Gameplay itself you can hit 60 easy without any frame drops, but cinematics are a hot piece of garbage and has lots of frame drops and for some reason so does the menu. 
+
+
+extra tips if issues with editor:
+
+try deleting the Fifa 23 folder in the documents
+try increasing the injection delay
+try to launch the game from the EA launcher instead of pressing "run game" in the live editor (it should still invoke the fake EA anti cheat)
+also triple check that you have put the live editor within the c drive of the proton prefix that the EA App launcher is located. I'm assuming if it's installed by Steam it would be the same as the game itself but I'm not really sure. And yeah double check that it's the same path you put for STEAM_COMPAT_DATA_PATH.
